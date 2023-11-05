@@ -11,7 +11,7 @@ public class Assignment1 {
 
 	public static void main(String[] args) {
 
-		// Module 2: Assignment - 1
+		//****************** Module 2: Assignment - 1  **************************
 
 // 1. Write a Test Script to open Test URL in Chrome Browser
 
@@ -21,7 +21,7 @@ public class Assignment1 {
 
 		driver.get("https://www.wikipedia.org/");
 
-		System.out.println("Title of the page in chrome browser = " + driver.getTitle());
+		System.out.println("URl of the page in chrome browser = " + driver.getCurrentUrl() );
 
 		driver.quit();
 
@@ -34,7 +34,7 @@ public class Assignment1 {
 
 		driver.get("https://www.wikipedia.org/");
 
-		System.out.println("Title of the page in Firefox browser = " + driver.getTitle());
+		System.out.println("URL of the page in Firefox browser = " + driver.getCurrentUrl());
 
 		driver.quit();
 		
@@ -42,13 +42,13 @@ public class Assignment1 {
 		
 		
 		
-		driver = new EdgeDriver(); //since i have problems with IE browser i'am going with edge browser
+		driver = new EdgeDriver(); //since i have problems with IE browser i'am going with edge browser 
 		
 		driver.manage().window().maximize();
 
 		driver.get("https://www.wikipedia.org/");
 
-		System.out.println("Title of the page in Edge browser = " + driver.getTitle());  
+		System.out.println("URL of the page in Edge browser = " + driver.getCurrentUrl());  
 
 		driver.quit();
 		
