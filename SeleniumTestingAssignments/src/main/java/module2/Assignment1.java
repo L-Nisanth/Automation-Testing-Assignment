@@ -2,8 +2,8 @@ package module2;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class Assignment1 {
 
@@ -42,7 +42,7 @@ public class Assignment1 {
 		
 		
 		
-		driver = new EdgeDriver(); //since i have problems with IE browser i'am going with edge browser 
+		driver = new InternetExplorerDriver(); 
 		
 		driver.manage().window().maximize();
 
