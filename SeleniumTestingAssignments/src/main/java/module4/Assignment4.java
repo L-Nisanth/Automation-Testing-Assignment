@@ -14,17 +14,16 @@ public class Assignment4 {
 
 		
 	//	Write a Test Script to get number of links available on Facebook Page https://www.facebook.com/
-		
-		   WebDriver driver = new ChromeDriver();
-		   
-		   driver.manage().window().maximize();
-		   driver.get("https://www.facebook.com/");
-		
-    	List<WebElement> listOfElements = driver.findElements(By.tagName("a"));
-		System.out.println("number of links available on Facebook Page = " + listOfElements.size());
-	
-	    driver.quit();
-	    
+
+	WebDriver driver = new ChromeDriver();
+
+	driver.manage().window().maximize();
+	driver.get("https://www.facebook.com/");
+
+	List<WebElement> listOfElements = driver.findElements(By.tagName("a"));
+	System.out.println("number of links available on Facebook Page = " + listOfElements.size());
+
+	driver.quit();
 		
 		
 	}

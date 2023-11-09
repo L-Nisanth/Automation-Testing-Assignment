@@ -21,13 +21,12 @@ public class Assignment1 {
 
 		driver.get("https://www.wikipedia.org/");
 
-		System.out.println("URl of the page in chrome browser = " + driver.getCurrentUrl() );
+		System.out.println("URl of the page in chrome browser = " + driver.getCurrentUrl());
 
 		driver.quit();
 
-		
 // 2. Write a Test Script to open Test URL in Firefox Browser
-		
+
 		driver = new FirefoxDriver();
 
 		driver.manage().window().maximize();
@@ -37,28 +36,18 @@ public class Assignment1 {
 		System.out.println("URL of the page in Firefox browser = " + driver.getCurrentUrl());
 
 		driver.quit();
-		
+
 //3. Write a Test Script to open Test URL in Internet Explorer Browser.
-		
-		
-		
-		driver = new InternetExplorerDriver(); 
-		
+
+		driver = new InternetExplorerDriver();
+
 		driver.manage().window().maximize();
 
 		driver.get("https://www.wikipedia.org/");
 
-		System.out.println("URL of the page in Edge browser = " + driver.getCurrentUrl());  
+		System.out.println("URL of the page in Edge browser = " + driver.getCurrentUrl());
 
 		driver.quit();
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 		

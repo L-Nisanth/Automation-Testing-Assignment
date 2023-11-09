@@ -17,23 +17,21 @@ public class Assignment4 {
 		 * 4. TC-4 get the title of page into console 
 		 * 5. TC-5 close the browser
 		 */
-		
-		        // 1. launch Internet Explorer browser 
-				WebDriver driver = new InternetExplorerDriver();
 
-				// 2. go to test URL https://www.google.com
-				driver.get(" https://www.google.com");
+		// 1. launch Internet Explorer browser
+		WebDriver driver = new InternetExplorerDriver();
 
-				// 3. specify wait time for 5 sec
-				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		// 2. go to test URL https://www.google.com
+		driver.get(" https://www.google.com");
 
-				// 4. get the title of page into console
-				System.out.println("Title of the page = " + driver.getTitle());
+		// 3. specify wait time for 5 sec
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
-				// 5. close the browser
-				driver.quit(); // or driver.close
-				
-				
+		// 4. get the title of page into console
+		System.out.println("Title of the page = " + driver.getTitle());
+
+		// 5. close the browser
+		driver.quit(); // or driver.close
 				
 		
 		

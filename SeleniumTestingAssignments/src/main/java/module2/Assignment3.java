@@ -19,7 +19,7 @@ public class Assignment3 {
 		 * 4. TC-4 get the title of page into console 
 		 * 5. TC-5 close the browser
 		 */
-		
+
 		// 1. launch Firefox browser
 		WebDriver driver = new FirefoxDriver();
 
@@ -34,10 +34,6 @@ public class Assignment3 {
 
 		// 5. close the browser
 		driver.quit(); // or driver.close
-		
-		
-		
-		
 		
 		
 		
