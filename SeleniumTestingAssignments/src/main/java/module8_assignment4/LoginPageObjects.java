@@ -10,7 +10,7 @@ public class LoginPageObjects {
 	// Write a Test Script to Automate www.saucedemo.com Login using Page Object Model.
 	
 	
-	@FindBy(id= "user-name")  
+	 @FindBy(id= "user-name")  
 	 public static WebElement userName;
 	 
 	 @FindBy(id = "password")
