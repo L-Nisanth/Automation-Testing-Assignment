@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="module9_assignment1.Assignment1">
+      <class name="module9_assignment3.Assignment3">
         <methods>
           <include name="quitBrowser"/>
-          <include name="firstLoginData"/>
           <include name="goToUrl"/>
+          <include name="loginTest" invocation-numbers="5"/>
         </methods>
-      </class> <!-- module9_assignment1.Assignment1 -->
+      </class> <!-- module9_assignment3.Assignment3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
