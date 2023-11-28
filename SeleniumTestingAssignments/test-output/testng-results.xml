@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-21T19:02:56 IST" name="Default suite" finished-at="2023-11-21T19:03:07 IST" duration-ms="10540">
+  <suite started-at="2023-11-22T18:02:46 IST" name="Default suite" finished-at="2023-11-22T18:02:46 IST" duration-ms="154">
     <groups>
     </groups>
-    <test started-at="2023-11-21T19:02:56 IST" name="Default test" finished-at="2023-11-21T19:03:07 IST" duration-ms="10540">
-      <class name="module9_assignment4.Assignment4">
-        <test-method is-config="true" signature="goToUrl()[pri:0, instance:module9_assignment4.Assignment4@36fc695d]" started-at="2023-11-21T19:02:56 IST" name="goToUrl" finished-at="2023-11-21T19:03:06 IST" duration-ms="9170" status="PASS">
+    <test started-at="2023-11-22T18:02:46 IST" name="Default test" finished-at="2023-11-22T18:02:46 IST" duration-ms="154">
+      <class name="module10.AssignmenTest">
+        <test-method signature="s()[pri:0, instance:module10.AssignmenTest@55b699ef]" started-at="2023-11-22T18:02:46 IST" name="s" finished-at="2023-11-22T18:02:46 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- goToUrl -->
-        <test-method signature="Login()[pri:0, instance:module9_assignment4.Assignment4@36fc695d]" started-at="2023-11-21T19:03:06 IST" name="Login" finished-at="2023-11-21T19:03:06 IST" duration-ms="745" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:module9_assignment4.Assignment4@36fc695d]" started-at="2023-11-21T19:03:06 IST" name="quitBrowser" finished-at="2023-11-21T19:03:07 IST" duration-ms="535" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitBrowser -->
-      </class> <!-- module9_assignment4.Assignment4 -->
+        </test-method> <!-- s -->
+      </class> <!-- module10.AssignmenTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
