@@ -7,10 +7,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
 
 public class Assignment1 {
-
-	public static void main(String[] args) {
+    @Test
+	public void test() {
 
 		// ****************** Module 6: Assignment - 1 *************************
 

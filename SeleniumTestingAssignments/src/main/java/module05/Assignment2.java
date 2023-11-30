@@ -5,12 +5,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
 
 public class Assignment2 {
 
 	static WebDriver driver;
-
-	public static void main(String[] args) {
+    @Test
+	public void test() {
 
 		// ****************** Module 5: Assignment - 2 *************************
 

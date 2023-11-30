@@ -9,11 +9,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
 
 public class Assignment1 {
 	static WebDriver driver;
-
-	public static void main(String[] args) {
+    @Test
+	public void test() {
 
 		// ****************** Module 5: Assignment - 1 *************************
 

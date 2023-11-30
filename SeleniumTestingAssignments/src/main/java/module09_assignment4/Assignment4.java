@@ -24,7 +24,7 @@ public class Assignment4 {
 	WebDriver driver;
     
 	public static Properties loadData() throws IOException {
-		FileInputStream file = new FileInputStream(".\\src\\main\\java\\module9_assignment4\\loginData.properties");
+		FileInputStream file = new FileInputStream(".\\src\\main\\java\\module09_assignment4\\loginData.properties");
 		Properties prop = new Properties();
 		prop.load(file);
 		return prop;

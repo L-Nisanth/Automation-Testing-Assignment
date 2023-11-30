@@ -38,7 +38,7 @@ public class Assignment2 {
 	@DataProvider(name = "logD")
 	public Object[][] loginData() throws BiffException, IOException {
 
-		FileInputStream file = new FileInputStream(".\\src\\main\\java\\module9_assignment2\\m9_Assignment2.xls");
+		FileInputStream file = new FileInputStream(".\\src\\main\\java\\module09_assignment2\\m9_Assignment2.xls");
 
 		Workbook wbook = Workbook.getWorkbook(file);
 		Sheet sheets = wbook.getSheet(0);

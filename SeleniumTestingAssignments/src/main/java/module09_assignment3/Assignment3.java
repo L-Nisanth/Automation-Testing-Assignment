@@ -23,7 +23,7 @@ public class Assignment3 {
 	
 		@DataProvider(name = "loggingData")
 		public Object[][] loginDatas() throws BiffException, IOException {
-			FileInputStream file = new FileInputStream(".\\src\\main\\java\\module9_assignment3\\m9_Assignment2.xls");
+			FileInputStream file = new FileInputStream(".\\src\\main\\java\\module09_assignment3\\m9_Assignment2.xls");
 			Workbook wbk = Workbook.getWorkbook(file);
 			Sheet sheets = wbk.getSheet(0);
 			int rowSize = sheets.getRows();
